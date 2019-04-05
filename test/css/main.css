@@ -42,6 +42,9 @@ h1,h2{
 .clear{
     clear:both;
 }
+html, body{
+    overflow-x: hidden;   
+}
 /*------------------Модальное окно-----------------------*/
 .fix-width{
     width:975px;
