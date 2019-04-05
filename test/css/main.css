@@ -48,7 +48,7 @@ html, body{
 /*------------------Модальное окно-----------------------*/
 .fix-width{
     width:975px;
-    
+    overflow-x: hidden;  
 }
 .fix-width .semiopacity{
     margin:0;
@@ -158,6 +158,7 @@ header .btnCallback:hover{
 
 .mainContent{
     background-image: url(../images/bg_image.png);
+    overflow-x: hidden; 
 }
 .semiopacity{
     margin-top:40px;
