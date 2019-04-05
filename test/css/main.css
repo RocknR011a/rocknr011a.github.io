@@ -1,0 +1,343 @@
+@font-face{
+    font-family: Ubuntu;
+    src: url(../fonts/ubuntu_regular.ttf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-B.ttf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: Rubik;
+    src: url(../fonts/Rubik-Medium.ttf);
+}
+@font-face{
+    font-family: LeksaSans;
+    src: url(../fonts/LeksaSans.otf);
+}
+@font-face{
+    font-family: LeksaSansBold;
+    src: url(../fonts/LeksaSans-Bold.otf);
+}
+@font-face{
+    font-family: LeksaSansDemibold;
+    src: url(../fonts/LeksaSans-DemiBold.otf);
+}
+body{
+    background-color: #fdfefe;
+}
+p{
+    font-family: Ubuntu;
+    font-size:18px;
+}
+.btnCallback{
+    font-family: Rubik;
+    font-size: 16px; 
+}
+h1,h2{
+    font-family: LeksaSansBold;
+    font-size:40px;
+}
+.clear{
+    clear:both;
+}
+/*------------------Модальное окно-----------------------*/
+.fix-width{
+    width:975px;
+    
+}
+.fix-width .semiopacity{
+    margin:0;
+    opacity:1;
+}
+.fix-width .foot{
+    display: block;
+}
+.fix-width .people, .fix-width .warning{
+    float:left;
+    margin-bottom:20px;
+}
+.CloseX{
+    background-color: #ffffff;
+    padding:5px 10px;
+    border:none;
+}
+.fix-width .mainContent{
+    background-image:none;
+}
+
+/*-----------------Попап------------------*/
+
+.popup{
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    width:320px;
+    top:0;
+    right:15px;
+}
+.inner-popup{
+    background-color:#232323;
+    margin:15px 0;
+    display:none;
+}
+.inner-popup button{
+    border:none;
+    background-color: inherit;
+    position:absolute;
+    top:25px;
+    right:10px;
+}
+.inner-popup p{
+    padding:40px 30px 40px 0;
+    font-size:16px;
+    color:#b8b8b8;
+}
+.firstChild{
+    margin: 40px 15px 40px 30px;
+    float:left;
+}
+.inner-popup span{
+    color:#ffffff;
+    font-size:24px;
+    font-family: inherit;
+}
+
+/*-----------------ШАПКА------------------*/
+
+
+
+header{
+    background-color: #ffffff;
+}
+header p{
+    font-size: 14px;
+    color:#232323;
+    padding-right:25px;
+}
+.logo{
+    margin-right:55px;
+}
+.logo, .hAbout{
+    padding: 15px 0;
+}
+.hAbout{
+    align-items: center;
+    width:23%;
+}
+.hAbout img{
+    float:left;
+    padding-right: 14px;
+}
+.fBox{
+    padding-left: 0;
+    padding-right: 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+header .btnCallback{
+    float:right;
+    margin: 15px 0;
+    padding:14px 48px;
+    color:#232323;
+    background-color: #ffffff;
+    border: 1px solid #232323;
+}
+header .btnCallback:hover{
+    background-color: #232323;
+    color:#ffffff;
+}
+
+
+/*------------------ОСНОВНОЙ БЛОК---------------------*/
+
+.mainContent{
+    background-image: url(../images/bg_image.png);
+}
+.semiopacity{
+    margin-top:40px;
+    margin-bottom:40px;
+    background-color: #ffffff;
+    opacity:0.95;
+    padding:0;
+}
+.inner-wrapper{
+    margin: 23px 97px;
+    padding: 0 33px;
+}
+.inner-wrapper h4{
+    font-family: Ubuntu;
+    font-size: 21.5px;
+    color:#c68e64;
+    line-height: 25px;
+    padding-right: 192px;
+}
+h3{
+    font-family: LeksaSans;
+    font-size:31px;
+    color:#232323;
+    margin:0;
+    padding-bottom:10px;
+}
+span{
+    font-family: 'LeksaSansBold';
+}
+.crossedBold{
+    text-decoration:line-through
+}
+.redBold{
+    color:#993535
+}
+.inner-wrapper p{
+    font-size:15px;
+    padding: 14px 10px 0 0;
+    margin:0 10px;
+}
+.counter{
+    width:270px;
+    margin-top:6px;
+    display: flex;
+    justify-content: space-between;
+}
+.inner-counter span{
+    font-size: 36px;
+    background-image: url(../images/counter.png);
+    background-repeat:no-repeat;
+    display:block;
+    padding-top:5px;
+    text-align: center;
+    width:69px;
+    height:60px;
+}
+.inner-counter p{
+    padding:0;
+}
+.counter, form{
+    margin-left:10px;
+}
+form{
+    width:270px;
+}
+input, .inner-wrapper button{
+    width:inherit;
+    margin-top:10px;
+    padding: 9px 0;
+}
+input{
+    padding-left:15px;
+    font-size:16px;
+    font-weight: bold;
+}
+.inner-wrapper button{
+    padding: 14px 0;
+    background-color: #232323;
+    color:#ffffff;
+    border: none;
+}
+.foot{
+    display: flex;
+}
+.foot p{
+    font-size:16px;   
+}
+.people{
+    width:290px;
+}
+.warning{
+    padding-left:80px;
+    width:420px;
+    text-align:center;
+    line-height: 20px;
+}
+.product{
+    background-image: url(../images/product.png);
+    width:240px;
+    height: 452px;
+    position: absolute;
+    right:185px;
+    top:120px;
+}
+
+/*-------------------значки-------------------*/
+.wrapper-Badges{
+    background-color: #232323;
+    padding:25px 0;
+}
+.badges{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+/*------------------------НАШИ ПРЕИМУЩЕСТВА------------------------*/
+
+
+.advantages{
+    padding-top:45px;
+    text-align: center;
+    background-color: #f0f6f6;
+}
+.inner-adv{
+    margin:55px 0;
+}
+.adv-child{
+    width:20%;
+    float: left;
+}
+.adv-child p{
+    padding:15px 8px;
+    font-size:16px;
+}
+
+/*--------------------ПОСЛЕДСТВИЯ БОЛЕЗНЕЙ СУСТАВОВ----------------------*/
+
+.aftermath{
+    padding-top:45px;
+    text-align: center;
+    background-image: url(../images/bg4b.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.aftermath h4{
+    padding-top: 10px;
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 19px;
+}
+.inner-after p{
+    padding:0 65px;
+    font-size:16px;
+}
+.inner-after{
+    padding-top:40px;
+}
+.aftermath h3{
+    padding: 25px 55px;
+    font-family: LeksaSansBold;
+    font-size: 30px;
+    margin-bottom:65px;
+}
+
+/*--------------------ФУТЕР----------------------*/
+
+footer{
+    background-color:#232323;
+    text-align:center;
+    padding-bottom: 40px;
+   
+}
+footer p{
+    padding:40px 0 15px 0;
+    color:#d7d7d7;
+    text-decoration: underline;
+    font-size:16px;    
+}
+footer span{
+    font-family: 'Ubuntu';
+    text-decoration: underline;
+    color:#f7bc00;
+    font-size:16px;  
+    
+}

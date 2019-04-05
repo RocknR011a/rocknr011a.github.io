@@ -1,0 +1,242 @@
+header .btnCallback{
+    padding:14px 0;
+}
+.fix-width{
+    width:808.33px;
+}
+.logo{
+    margin-right: 15px;
+}
+.fBox p{
+    padding-right:0;
+}
+.inner-wrapper h1{
+    padding-top:25px;
+    font-size:31px;
+    margin-top:0;
+}
+.inner-wrapper h3{
+    font-size:29px;
+}
+.inner-wrapper h4{
+    font-size:18px;
+    padding-right:160px;
+}
+.inner-wrapper{
+    margin: 0 55px 25px 55px;
+}
+.inner-wrapper p{
+    padding-right:0;
+}
+
+.product{
+    background-size: 228px 429px;
+    width: 228px;
+    height: 429px;
+    right:115px;
+    top:120px;
+}
+.warning{
+    width:340px;
+    padding-left: 35px;
+}
+.btnCallback{
+    padding:7px 0;
+    width:100%;
+}
+.aftermath h3{
+    font-size: 25px;
+}
+.inner-after p{
+    padding: 0 45px;
+}
+.adv-child img{
+    width:181px;
+    height:210px;
+}
+@media all and (max-width:991px){
+    .fix-width{
+        width:750px;
+    }
+    .logo img{
+        width:178px;
+        height:51px;
+    }
+    .hAbout img{
+        width:45px;
+        height:45px;
+        padding-right:4px;
+    }
+    header p{
+        font-size: 11px;
+    }
+    header .btnCallback{
+        padding: 10px 0;
+    }
+    .btnCallback{
+        font-size: 14px;
+    }
+    .inner-wrapper h4{
+        font-size:18px;
+        padding-right:100px;
+    }    
+    .warning{
+        width:350px;
+        padding-left:50px;
+    }
+    .product{
+        top:130px;
+        right:100px;
+        background-size: 215px 406px;
+        width:215px;
+        height:406px;
+    }
+    .inner-counter span{
+        font-size: 33px;
+        background-size: 61px 52px;
+        background-position:center;
+        display:block;
+        padding-top:3px;
+        text-align: center;
+        width:61px;
+        height:52px;
+    }
+    .inner-counter p{
+        margin:0 5px;
+    }
+    .foot p{
+        font-size:14px;
+    }
+    .inner-wrapper h3{
+        font-size:28px;
+    }    
+    .warning{
+        width:320px;
+        padding-left: 50px;
+    }
+    .warning p{
+        margin:0;
+    }
+    .people{
+        width:260px;
+    }
+    .counter{
+        width:250px;
+    }
+    form{
+        width:250px;
+    }
+    .adv-child img{
+        width:135px;
+        height:157px;
+    }
+    .adv-child p, .inner-after p{
+        font-size: 14px;
+    }
+    .inner-after img{
+        width:187px;
+        height:187px;
+    }
+    .aftermath h4{
+        font-size:16px;
+    }
+    .inner-after p{
+        padding: 0 25px;
+    }
+    .aftermath h3{
+        font-size:23px;
+    }
+    footer p{
+        font-size:12px;
+    }
+}
+   
+@media all and (max-width:767px){
+    .mainContent{
+        background-size: cover;
+        padding:15px;
+    }
+   
+    .logo{
+        margin:0 auto;
+    }
+    .inner-wrapper{
+        margin:20px;
+        padding:0;
+    }
+    .semiopacity{
+        margin-top:20px;
+    }
+    .mainContent h4{
+        padding:0;
+        font-size: 15px;
+        line-height:20px;
+    }
+    .mainContent h1{
+        font-size:22px;
+    }
+    .mainContent h3{
+        font-size:20px;
+    }
+    .inner-wrapper p{
+        font-size:12px;
+    }
+    header .btnCallback{
+        display:none;
+    }
+    header .hAbout{
+        display:none;
+    }
+    body{
+        text-align: center;
+    }
+    h5{
+        font-size:25px;
+    }    
+    .product{
+        position: relative;
+        top:0;
+        right:0;
+        width:100%;
+        background-position: center;
+        background-repeat:no-repeat;
+    }
+    .counter{
+        margin: 0 auto;
+    }
+    form{
+        width:100%;
+    }
+    .foot{
+        flex-direction: column;
+        padding-bottom:30px;
+    }
+    .warning, .people{
+        width:100%;
+        padding:0;
+
+    }
+    h2{
+        font-size: 30px;
+    }
+    .adv-child{
+        width:50%;
+        height: 320px;
+    }
+    .anotherRow{
+        width:100%;
+    }
+    .anotherRow p{
+        width:50%;
+        margin:0 auto;
+    }
+    .aftermath h3{
+        font-size:20px;
+    }
+   
+}
+@media all and (max-width:321px){
+     .counter{
+        width:100%;
+    }
+}
